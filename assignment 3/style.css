@@ -1,0 +1,96 @@
+.herobox{
+    
+    height:100%;
+    width:80%;
+    position: relative;
+    background-size: 100%,8%;
+   }
+   
+   .herobox img {
+       width:100%;
+       height:100%;
+   }
+ 
+   
+   .smallbox{
+       
+       bottom:10%;
+       right: 1%;
+       position:absolute;
+       background-color:rgba(234, 245, 244, 0.3);
+       color:white;
+       padding:3%;
+       height: 80px;
+       width: 300px;
+       text-align: center;
+   }
+
+   p{
+    font-size: 12px;
+    font-weight: bold;
+   }
+  
+  
+ .clock {
+    width:80%;
+    height:100%;
+    background-size: 100%,8%;
+    position: relative;
+    background-color: antiquewhite;
+ }
+.clock img
+{
+    width:50%;
+    height:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#hand{
+    bottom:45%;
+    right: 59%;
+    position:absolute;
+    height: 10%;
+    width: 16.2%;
+    animation-delay: 2s;
+    animation: rotate 4s  linear ; 
+    animation-name: stretch;
+    transform-origin:left ;
+}
+#hand1 {
+    bottom:45%;
+    right: 57%;
+    height: 10%;
+    width: 18%;
+    position:absolute;
+    transform: rotate(0.75turn);
+    animation: rotate 3s  linear ; 
+    transform-origin:left ;
+    animation-name: rotate;
+}
+
+
+
+
+@keyframes rotate {
+ 
+    0% {
+        transform: rotate(0deg);
+      }
+    100% {
+      transform: rotate(270deg);
+    }
+  }
+
+  
+@keyframes stretch {
+ 
+    0% {
+        transform: rotate(0deg);
+      }
+    100% {
+      transform: rotate(27deg);
+    }
+  }
+
