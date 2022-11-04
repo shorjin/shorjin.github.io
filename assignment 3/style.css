@@ -54,7 +54,7 @@
     height: 10%;
     width: 16.2%;
     animation-delay: 2s;
-    animation: rotate 4s  linear ; 
+    animation: rotate 3.3s  linear ; 
     animation-name: stretch;
     transform-origin:left ;
 }
