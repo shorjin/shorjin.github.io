@@ -19,7 +19,7 @@ document.getElementById("check").onclick = function(){
     const messagebox =document.getElementById("message");
     const score=document.getElementById("score");
     
-     if (answer < number && remain>1) {
+     if (answer < number && remain>1 && number >=1 && number <= 100) {
         messagebox.innerHTML=`<p>Your Guess is too High</p>`;
         remain--;
         score.innerHTML=`<p>Score:${remain}</p>`;
@@ -28,7 +28,7 @@ document.getElementById("check").onclick = function(){
         li.innerText = number;
         list.appendChild(li);
 
-      } else if (answer > number && remain>1) {
+      } else if (answer > number && remain>1 && number >=1 && number <= 100) {
         messagebox.innerHTML=`<p>Your Guess is too Low</p>`;
         remain--;
         score.innerHTML=`<p>Score:${remain}</p>`;
