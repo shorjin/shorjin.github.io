@@ -1,0 +1,137 @@
+body{
+    background-color: turquoise;
+    text-align: center;
+}
+h1{
+    color: palevioletred;
+}
+h4{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    font-family: fantasy;
+
+}
+.container1{
+    padding: 1%;
+    width: 60%;
+    height:auto;
+    margin: 5% 20%;
+
+
+    border-radius: 15px;
+    background-color: lightcyan;
+}
+.guesspic{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+ 
+}
+#number{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding: 3% 6%;
+    border-radius: 15px;
+    background-color: lightgray;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: medium;
+    width: 50%;
+}
+
+#check{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 2% 6%;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    background-color: green;
+    color: whitesmoke;
+    float: center;
+}
+.main{
+    
+    width: 50%;
+    height:30em;
+    margin: 12% 25% 5% 25% ;
+    border-radius: 15px;
+    background-color: burlywood;
+    border-radius: 15px;
+    
+}
+.history{
+  
+    width: 30%;
+    height:20em;
+    margin: 2% 35%;
+    border-radius: 15px;
+    background-color: lightblue;
+    border-radius: 15px;
+
+}
+.button1{
+    color:rgb(7, 7, 7);
+    background-color: pink;
+    border-radius: 15px;
+    font-weight: bolder ;
+    font-size: larger;
+    padding: 1% 2%;
+    border-color:antiquewhite ;
+    box-shadow: none;
+    margin-top: 2%;
+    margin-right: 1%;
+    float: right;
+    text-align: center;
+    
+    
+}
+
+.score{
+    float:left;
+    width: 15%;
+    height: 120px ;
+    padding: 1% 1%;
+    background-color: pink;
+    border-radius: 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+.title{
+    float:left;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#myList{
+    width: 100%;
+    color: black;
+    text-align: left;
+}
+li{
+    text-align: left;
+}
+
+#palyagain{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 1% 5%;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    background-color: green;
+    color: whitesmoke;
+    float: center;
+}
