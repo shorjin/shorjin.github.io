@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaojin Li Day 1</title>
+</head>
+<body>
+    <h1>Images in HTML</h1>  
+    <p>Add images into a webpages</p>
+    <img src="images/strawberry.jpg" alt="Photo of Strawberry title="visit strawberry" width="50%">
+    <figure>
+        <img src="images/strawberry.jpg" alt="Photo of Strawberry title="strawberry" width="100%">
+        <img src="images/strawberry.jpg" alt="Photo of Strawberry title="strawberry" width="49%">
+        <img src="images/strawberry.jpg" alt="Photo of Strawberry title="strawberry" width="49%">
+        <figcaption>Picture of strawberry</figcaption>
+    </figure>
+    <!---->
+    <h1 id="pictag">picture tag</h1>
+    <p>Resize the brower window to load different photos of NYC</p>
+    <picture>
+        <source media="(min-width:1100px)" srcset="images/strawberry.jpg">
+        <source media="(min-width:800px)" srcset="images/pineapple.jpg">
+        <source media="(min-width:500px)" srcset="images/mango.jpg">
+        <img src="images/watermelon.jpg" width="30%" alt="Photo of watermelon">
+    </picture>
+    <!--links-->
+    <h1 id="links">Link to another site</h1>
+    <a href="http://www.qcc.cuny.edu" target="_blank" rel="noopener noreferer">Vist QCC website</a>
+    <a href=""mailto:shorjin09@gmail.com>Email to Xiaojin Li</a>
+    <p><a href="mailto:shorjin09@gmail.com">Email to Xiaojin Li</a></p>
+    <p>Follow us</p>
+    <figure>
+        <a href="https://www.tiktok.com/en/" target="_blank" rel="noopener noreferer"> <img src="images/tiktok.png" alt="image of tik tok logo" width="10%"> 
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferer"> <img src="images/twitter.png" alt="image of twitter logo" width="10%"> 
+        </a>
+        <h1>Link to a specific part of the same web page</h1>
+        <ul>
+            <li>
+                <a href="#">Top of the page</a>
+            </li>
+            <li>
+                <a href="#pictag">Picture Tag</a>
+            </li>
+            <li>
+                <a href="#links">Links</a>
+            </li>
+        </ul>
+    </figure>
+    <figure>
+        <img src="images/mango.jpg" alt="mango picture" width="500px" usemap="#fruit">
+    </figure>
+    <map name="fruit">
+        <area shape="rect" coords="300px,20px,350px,170px" href="https://www.sayweee.com/en/product/Ataulfo-Mango/33585?sales_org_id=16&region_id=000007&campaign_id=BOFU_e-GLOBAL_t-Shopping_l-EN_r-Broad_src-GADS_o-dweb-CPC-All&utm_source=gads&utm_medium=cpc&utm_campaign=BOFU_e-GLOBAL_t-Shopping_l-EN_r-Broad_src-GADS_o-dweb-CPC-All&cam_id=18568320211&utm_adgroup=142695302816&keyword=&ftu=popupall&ftuflags=48&ftu_redirect=https%3A%2F%2Fweeeone.onelink.me%2F3WRB%2Fm4dtrr73&gclid=CjwKCAjwt52mBhB5EiwA05YKo2SALt_qexSGZCUwyYz2siW8hGqMjZrhUAxnSWO4ZkXXiIAngSqVoRoC6RgQAvD_BwE" target="_blank" rel="noopener noreferer" alt="website to buy mango">
+        <area shape="circle" coords="50px,210px,200px,10px" href="https://www.sayweee.com/en/product/Mango/96802?sales_org_id=16&region_id=000007&campaign_id=BOFU_e-GLOBAL_t-Shopping_l-EN_r-Broad_src-GADS_o-dweb-CPC-All&utm_source=gads&utm_medium=cpc&utm_campaign=BOFU_e-GLOBAL_t-Shopping_l-EN_r-Broad_src-GADS_o-dweb-CPC-All&cam_id=18568320211&utm_adgroup=142695302816&keyword=&ftu=popupall&ftuflags=48&ftu_redirect=https%3A%2F%2Fweeeone.onelink.me%2F3WRB%2Fm4dtrr73&gclid=CjwKCAjwt52mBhB5EiwA05YKozopjQdpodzoPdNiL-EDiaWK3m5BQYXzMPA1VbP1tR3RROYdAG1yZRoCSn4QAvD_BwE" target="_blank" rel="noopener noreferer" alt="another website to buy mango">
+    </map>
+    <hr>
+    <footer>Day 1: HTML review @ Xiaojin Li</footer>
+</html>
