@@ -1,0 +1,104 @@
+body{background-color:beige;}
+#par1{color: darkblue;}
+.par1{background-color: aquamarine;}
+h2.par1{background-color: red;}
+.bgp{color: pink;}
+/*
+*{text-align: right;}
+*/
+.par1,#par2, h1{
+    text-align: center;
+}
+/*-- combinator selector --*/
+/*
+li a{background-color: coral;}
+div+p{background-color: pink;}
+div>p{color:orange}
+div~p {color:magenta}
+*/
+
+/*-- attributes selector --*/
+a[href="mailto:shorjin09@gmail.com"]{
+    background-color:aquamarine
+}
+/*-- Pseudo selector --*/
+.qccLink{
+    color:black;
+    background-color: blueviolet;
+}
+.qccLink:visited{
+    background-color: chartreuse;
+}
+
+.qccLink:hover{
+    background-color: darkcyan;
+}
+
+.qccLink:active{
+    background-color: red;
+}
+
+.hiddenPar{
+    color: red;
+    background-color: azure;
+    display: None;
+}
+.tooltipDiv:hover .hiddenPar{
+    display: block;
+}
+
+.subtitle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.intro .author{
+    font-family: 'Times New Roman', Times, serif;
+}
+.author{font-size: 20px;font-weight: 900; font-style: italic;}
+
+.shadow{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    background-color: aqua;
+    box-shadow: 10px 20px 20px orange;
+}
+
+.hoverme{
+    background-color: pink;
+    color:azure;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding: 1em;
+    border-radius: 20px;
+}
+.hoverme:hover{
+    box-shadow: 0px 0px 10px 2px gray;
+}
+
+/*-- cards --*/
+.card{
+    width:30%;
+    box-shadow: 0px 0px 3px 2px lightblue, 2px 5px 3px orange;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.imgcard{
+    width: 100%;
+}
+.cardinfo{
+    text-align: center;
+    font-weight: bold;
+}
+.card:hover{
+    box-shadow: none;
+}
+/*-- box model properties */
+.box{
+    background-color: aqua;
+    border: 10px orange solid;
+    width: 30%;
+    margin-top: 6em;
+    margin: 2em;
+    padding: 2em;
+}
