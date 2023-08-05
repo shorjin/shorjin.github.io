@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaojin Li</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    
+
+</head>
+<body>
+    <h1>Xiaojin Li</h1>
+    <script src="day4.js">
+        
+        console.log("Xiaojin Li")
+        let animal="cat"
+        let age=23
+        let bool1=true
+        let var1=""
+        let var2=null
+        let var3
+        // prompt method
+        // prompt("Message on top of the text field","text field")
+        let name=prompt("Enter a name")
+        let num1=parseInt(prompt("Enter number 1"))
+        let num2=parseInt(prompt("Enter number 2"))
+        // check num 1 and num is a number
+        let checknum1=isNaN(num1)
+        let checknum2=isNaN(num2)
+
+
+        if (checknum1){
+            console.log("you didn't enter number 1!")
+            num1=0
+        }
+        if (checknum2){
+            console.log("you didn't enter number 2!")
+            num2=0
+        }
+
+
+
+        // display values of a variable
+        console.log(name)
+        console.log("number1=",num1,"number2=",num2)
+        console.log("number1=",+num1+"number2="+num2)
+        console.log(`number1=${num1} number2=${num2}`)
+        console.log("number1+number2 =",num1+num2)
+        console.log(`welecome to js ${name}`)
+
+        // arrays
+
+        let fruits=["oranges","apples","peaches"]
+        console.log(`the second item in array fruits is ${fruits[1]}`)
+        let meals=["breakfast",["egg","bread","juice"],'lunch',["fish","salad"]]
+        console.log(`original array ${fruits}`)
+        // add values to the begining of an array
+        fruits.unshift("bananas",23)
+        console.log(`array after unshift method ${fruits}`)
+        // remove the first element in an array
+        fruits.shift()
+        console.log(`Array after shift method ${fruits}`)
+        // index of method, if the result is -1, it means no finding
+        let findfruit="peaches"
+        let fruit1=fruits.indexOf(findfruit)
+        console.log(`${findfruit} has index =${fruit1}` )
+
+        // ************************************************************************************************
+        // conditional statement
+
+        let day= true
+        let night= false
+        if(day){
+            console.log("The statement is:", day);
+        }
+
+        age=2
+        if(age>=21){
+            console.log(`${age} is an adult age!`);
+            
+        }
+        else{ console.log(`${age} is not an adult age!`);
+        }console.log('end of if statement')
+
+        // check if two numbers are the same,greater than or less than
+        if (num1==num2){
+            console.log(`${num1} is the same as ${num2}`)
+        }else if(num1>num2){
+            console.log(`${num1} is greater than  ${num2}`)
+        }else{
+            console.log(`${num1} is less than  ${num2}`)
+        }
+        //  if user didn't enter a name
+        if (name==="" || name===null)  {
+            console.log(`You didn't enter a name properly`)
+        
+        }else{
+            console.log(`Welcome to JS ${name}`)
+        }
+
+        // check if a passowrd is at least 6 characters and has no space
+        let password=prompt("Enter a password: ")
+        if(password.length<6){
+            console.log('password has less than 6 characters!')
+        }
+        else{
+            console.log('password has 6+ characters!')
+            if (password.indexOf(' ')===-1)
+            { console.log(`Great! password has no space. Your password is ${password}`)}
+            else{
+                console.log(`Warning! password can't have space`)
+            }
+           
+
+        }
+    
+
+    </script>
+    
+</body>
+</html>
