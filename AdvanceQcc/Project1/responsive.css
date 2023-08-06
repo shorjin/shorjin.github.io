@@ -1,0 +1,91 @@
+
+
+/* For screens smaller than 768px (e.g., smartphones) */
+@media screen and (max-width: 768px) {
+    body{
+        background-color: antiquewhite;
+    }
+    .logo-container {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .rightnav {
+    
+        margin-top: 80px;
+        margin-right:190px;
+    }
+
+    .cardcontainer {
+        flex-direction: column;
+    }
+
+    .card, .card1 {
+        width: 100%;
+        margin-bottom: 3em;
+    }
+
+   .subtitle{
+    font-size: medium;
+    
+   }
+  
+
+    .mainpic > img {
+        width: 95%;
+    }
+
+ 
+}
+
+  /* Adjust elements for larger tablets and small laptops */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    body{background-color: lightblue;}
+    .logo-container {
+        width: 80%;
+        text-align: center;
+        padding: 1px;
+    }
+    .rightnav {
+        float: right;
+        margin-top: 1px;
+        margin-right:0.1px;
+    }
+
+
+    .card, .card1 {
+        width: 40%;
+        margin-bottom: 3em;
+    }
+    .mainpic > img {
+        width: 90%;
+    }
+    
+  }
+ 
+ 
+  /* Adjust elements for larger laptops and desktops */
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    body{
+        background-color: paleturquoise
+    };
+    .card, .card1 {
+        width: 30%;
+        margin-bottom: 3em;
+    }
+    .logo-container {
+        width: 100%;
+        text-align: center;
+        padding: 1px;
+    }
+    .mainpic > img {
+        width: 80%;
+    }
+
+  .mainpicontent {
+    left: 45%;
+    font-size: large;
+}
+
+  }

@@ -1,0 +1,182 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+    background-color: #ECF2FF;
+    
+}
+img{width:100%; display:block}
+/* NAV BAR */
+
+nav {
+    
+    align-items: center; 
+    padding: 10px;
+    overflow: hidden;
+}
+/* logo container */
+.logo-container img {
+    width: 50px; /* Set the width of the logo image */
+    height: 50px; /* Set the height of the logo image */
+    margin-right: 10px;
+}
+h1 {
+    margin: 0;
+    font-family: Kaushan Script;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width:50%;
+    top: 0.6%;
+}
+
+h1 {
+    font-family: Kaushan Script;
+}
+
+
+
+/* menu style */
+a{
+    text-decoration: none;
+    color: #333;
+    font-size: larger;
+    font-weight: 700;    
+    padding-right: 20px;
+  
+}
+/*  Styles for the left part of nav */ 
+.leftnav{
+    float:left;
+    padding-left:6% ;
+    align-items: center; 
+}
+
+
+/* Styles for the right part of nav */
+.rightnav {
+    align-items: center; 
+    float: right;
+      
+}
+/* Styles for the shopping cart icon */
+.rightnav img{
+    width: 30px; /* Set the width of the shopping cart icon */
+    height: 30px; /* Set the height of the shopping cart icon */
+    float: right;
+}
+
+
+
+
+/* main pic */
+
+.mainpic{
+    position: relative; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+
+   
+
+}
+.mainpic > img{
+    width: 50%;
+   
+    
+
+}
+.mainpicontent{
+    position: absolute;
+    top:3%;
+    left:47%;
+    color: white;
+    font-size: larger;
+    
+  
+    
+}
+
+.mainpicontent p::first-letter{
+    color: red;
+}
+.subtitle{
+    font-weight: 700;
+    font-size: larger;
+    font-family: Kaushan Script;
+}
+
+/* diving sites */
+/* H1 Title */
+h1,.intro{
+    text-align: center;
+}
+/* intro */
+.intro{
+    font-size: larger;
+    font-weight: 500;
+
+}
+.card {
+    width:22%;
+    box-shadow: 0px 0px 5px 1px gray;
+    border-radius: 20px;
+    overflow:hidden;
+    margin: 2% 0%;
+    transition: ease 800ms;
+    position: relative;
+     
+}
+
+.card:hover, .card1:hover{
+    box-shadow: 0px 0px 5px 1px black;
+    transform: scale(1.05);
+}
+.cardcontent0{
+    padding: 0.5em 0.8em;
+    position: absolute;
+    top: 5%;
+    color:white;
+    font-size: large;
+}
+
+.cardcontainer{
+    display: flex;
+    margin:2em,auto;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+
+/* padi course */
+
+.card1{
+    width:22%;
+    box-shadow: 0px 0px 5px 1px gray;
+    border-radius: 20px;
+    overflow:hidden;
+    margin: 2% 0%;
+    transition: ease 800ms;
+    height:900px;    
+}
+
+    
+/* Hover change color to blue */
+.card1:hover .subtitle, .card:hover .subtitle, nav a:hover{
+   
+    color:#1C82AD
+}
+
+.card1 img{
+    height:80%;
+}
+
+footer{
+    color:gray;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+}
