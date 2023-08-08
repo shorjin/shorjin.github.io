@@ -1,0 +1,40 @@
+.subtitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color:coral;
+    }
+
+#guessnumber{
+        width: 200px;
+        height:200px;
+        padding:10%;
+        text-align: center;
+        font-size: 5em;
+        color: aqua;
+        background-color: lightgray;
+        margin-top: 1em;
+        margin-bottom: 0.3em;
+    }
+    html{scroll-behavior: smooth;}
+
+    .top{
+        position: fixed;
+        bottom: 2%;
+        right:2%;
+        background-color: gray;
+        font-size: 2.5em;
+        border-radius: 50%;
+        padding: 0.5em;
+        overflow: hidden;
+        transition: ease 300ms;
+        display: none;
+    }
+    .top a{
+        text-decoration: none;
+    }
+    .top:hover{
+        opacity: 0.8;
+        box-shadow: 0px 0px 5px 2px black;
+        transform: scale(0.9);
+    }
