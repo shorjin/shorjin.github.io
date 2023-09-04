@@ -3,4 +3,4 @@ Below is my web development applications portfolio
 
 
 Below is the repository for my web development applications
-# https://shorjin.github.io
+# https://github.com/shorjin/shorjin.github.io
