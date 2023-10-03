@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+
+    <h1>GUESS MY NUMBER</h1>
+    <h3>Guess the number between 1 and 100</h3>
+
+        <div class="container1">
+                <div class="score">
+                    <div id='score'>Score:10</div><br>
+
+
+                </div>
+                 <input class="button1" type="reset" onClick="document.location.reload(true)" value="Reset">
+                <div class="main" id="myDiv">
+                    <div class="guesspic" ><img id="myImage" src="pic1.png" alt="guess logo" width="150px" /></div>
+
+                    <input type="text" placeholder="Guess a number" id="number" name="number"/><br>
+
+                    <button id="check"> check </button>
+                    <h4 id="info"></h4>
+                    <h4 id="message">Guess a number </h4>
+                </div>
+                <div class="history">
+                    <p class="title">Guess History</p>
+                    <br><br><br>
+                    <ul id="myList"></ul> <!-- Use an unordered list (UL) -->
+                </div>
+
+
+        </div>
+
+
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+/* Reset some default browser styles */
+body, h1, h3, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and center text alignment for the entire page */
+body {
+    background-color: turquoise;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main heading */
+h1 {
+    color: palevioletred;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+/* Style the subheading */
+h3 {
+    color: #777;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Style the container */
+.container1 {
+    background-color:lightcyan;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Style the score */
+.score {
+    background-color: #ffc107;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the Reset button */
+.button1 {
+    color: rgb(7, 7, 7);
+    background-color: pink;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 1% 2%;
+    border-color: antiquewhite;
+    box-shadow: none;
+    margin-top: 2%;
+    float: right; /* Move the button to the right corner */
+    text-align: center;
+}
+
+/* Style the main content area */
+.main {
+
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    width: 70%;
+    height: 30em;
+    margin: 17% auto 5% auto; /* Center horizontally and adjust top margin */
+    border-radius: 15px;
+    background-color: burlywood;
+}
+
+/* Style the guess picture */
+.guesspic img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the input box for guessing a number */
+#number {
+    text-align: center;
+    padding: 3% 6%;
+    border-radius: 15px;
+    background-color: lightgray;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: medium;
+    width: 50%;
+    margin: 0 auto; /* Center horizontally */
+    display: block; /* Remove default inline behavior */
+    margin-top: 10px; /* Add margin to create vertical centering */
+}
+/* Style the check button */
+#check {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Style the info and message text */
+#info, #message {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: red;
+}
+
+/* Style the history section */
+.history {
+    background-color:lightblue  ;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Style the title for the history section */
+.title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style the list for guess history */
+#myList {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style individual list items in guess history */
+li {
+    margin-bottom: 5px;
+    color: #777;
+}
+
+#message {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Thank you page */
+
+#palyagain{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 1% 5%;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    background-color: green;
+    color: whitesmoke;
+    float: center;
+}
